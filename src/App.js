@@ -13,14 +13,18 @@ class App extends Component {
     alert("Web Page Under Construction!");
 }
 
+  datasaved(){
+    alert("The data has been successfully saved")
+  }
+
   render() {
     return (
       <div className="App">
         <Customers />
         <Drinks />
         <Voucher />
-        <Add handleClicked={this.unfinished}/>
-        <Calculate />
+        <Add handleClicked={this.datasaved}/>
+        <Calculate handleClicked={this.unfinished} />
       </div>
     );
   }
