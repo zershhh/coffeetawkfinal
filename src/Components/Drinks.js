@@ -7,9 +7,9 @@ class Drinks extends Component {
             
             <div>
             <br/>
-               <a href="www.google.com" id="x"><img src="https://globalassets.starbucks.com/assets/7fdaf1ebaaef41cb9bd7c30755236681.jpg" class="center" alt="drink"width="500"/></a> 
+               <a href="www.google.com" id="x"><img src="https://globalassets.starbucks.com/assets/7fdaf1ebaaef41cb9bd7c30755236681.jpg" class="center"/></a> 
             <br/> 
-                <select>
+                <select id ='select2'>
             <option value="Number of Seasonal Drinks">Number of Seasonal Drinks</option>
             <option value="0">0</option>
             <option value="1">1</option>

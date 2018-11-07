@@ -7,15 +7,21 @@ import Voucher from './Components/Voucher'
 import Add from './Components/Add'
 import Calculate from './Components/Calculate'
 
-
 class App extends Component {
    unfinished() {
-    alert("Web Page Under Construction!");
+    alert("Calculating........");
 }
 
   datasaved(){
-    alert("The data has been successfully saved")
+    
   }
+
+  reset(){
+    document.getElementById("select1").selectedIndex = 0; //1 = option 2
+    document.getElementById("select2").selectedIndex = 0; //1 = option 2
+    document.getElementById("select3").selectedIndex = 0; //1 = option 2
+    alert("The data has been successfully saved")
+    }
 
   render() {
     return (
@@ -23,7 +29,7 @@ class App extends Component {
         <Customers />
         <Drinks />
         <Voucher />
-        <Add handleClicked={this.datasaved}/>
+        <Add handleClicked={this.reset}/>
         <Calculate handleClicked={this.unfinished} />
       </div>
     );

@@ -7,10 +7,10 @@ class Customers extends Component {
             
             <div>
                 <h2>Coffee Correlation Data Collection</h2>
-                
-                <a href="www.google.com" id="x"><img src="https://qph.fs.quoracdn.net/main-qimg-a6837251b85c9884bdb272c8e3638ac1-c" class="center" alt="drink"width="500"/></a>
+                <h2>Number of Customers VS Number of Seasonal Drinks VS Voucher Use</h2>
+                <a href="www.google.com" id="x"><img src="https://qph.fs.quoracdn.net/main-qimg-a6837251b85c9884bdb272c8e3638ac1-c" class="center" alt="drink"/></a>
                 <br/>
-                <select>
+                <select id='select1'>
             <option value="Number of Customers">Number of Customers</option>
             <option value="1">1</option>
             <option value="2">2</option>
@@ -22,7 +22,12 @@ class Customers extends Component {
             <option value="8">8</option>
             <option value="9">9</option>
             <option value="10">10</option>
-        </select></div>
+        </select>
+            
+        
+        </div>
+            
+
             
         );
     }
