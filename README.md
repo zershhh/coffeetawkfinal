@@ -1,4 +1,4 @@
-### 2018 Fall NYU Shanghai Application Lab
+### 2018 Fall NYU Shanghai Application Lab [NYU Shanghai IMA] (https://shanghai.nyu.edu/academics/majors/interactive-media-arts)
 # **CoffeeTawk Project**        
 
 ### Heroku App [link](https://fffinalcoffeetawk.herokuapp.com/)
